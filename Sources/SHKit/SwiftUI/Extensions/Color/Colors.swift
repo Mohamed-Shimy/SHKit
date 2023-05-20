@@ -21,6 +21,15 @@ public typealias PlatformColor = NSColor
 
 #if !os(watchOS) // All the methods below are not available for WatchOS at the time of writing
 
+public extension Color {
+    
+    static var random: Self {
+        .init(red: .random(in: 0.0...1.0),
+              green: .random(in: 0.0...1.0),
+              blue: .random(in: 0.0...1.0))
+    }
+}
+
 // MARK: - Adaptable colors
 // Links to standard colors documentation
 // Platform | Reference
