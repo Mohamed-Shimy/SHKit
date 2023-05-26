@@ -18,7 +18,6 @@ public extension Data {
     }
     
     var toDictionary: [String: Any] {
-        return (try? JSONSerialization.jsonObject(with: self, options: .allowFragments))
-            .flatMap { $0 as? [String: Any] } ?? [:]
+        (try? self.mapDictionary()) ?? [:]
     }
 }
