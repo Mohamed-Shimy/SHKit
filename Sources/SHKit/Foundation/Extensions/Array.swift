@@ -22,4 +22,3 @@ public extension Array {
         self = shifted(by: distance)
     }
 }
-

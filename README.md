@@ -4,6 +4,6 @@
 
 # SHKit
 
-![Swift Version](https://img.shields.io/badge/Swift-5.7-F16D39.svg?style=flat) [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
+![Swift Version](https://img.shields.io/badge/Swift-5.8-F16D39.svg?style=flat) [![Swift Package Manager compatible](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 
 ​	

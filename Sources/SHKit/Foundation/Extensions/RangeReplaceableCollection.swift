@@ -18,7 +18,6 @@ public extension RangeReplaceableCollection {
     mutating func move(_ index: Index, to: Index) {
         insert(remove(at: index), at: to)
     }
-    
 }
 
 public extension RangeReplaceableCollection {

@@ -70,7 +70,6 @@ internal extension SHScrollView {
                 })
                 .onPreferenceChange(PositionPreferenceKey.self) { position in
                     self.position = position
-                    print(position)
                 }
         }
     }
