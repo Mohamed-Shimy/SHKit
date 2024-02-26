@@ -22,4 +22,12 @@ public extension Comparable {
     func inRange<C>(of collection: C) -> Bool where C: Collection, C.Index == Self {
         self.inRange(opened: collection.startIndex, collection.endIndex)
     }
+    
+    func inRange(of range: ClosedRange<Self>) -> Bool {
+        range ~= self
+    }
+    
+    func inRange(of range: Range<Self>) -> Bool {
+        range ~= self
+    }
 }

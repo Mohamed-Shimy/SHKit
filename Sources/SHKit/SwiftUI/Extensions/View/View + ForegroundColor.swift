@@ -9,7 +9,7 @@ import SwiftUI
 
 public extension View {
     
-    func foregroundColor(ui color: UIColor) -> some View {
+    func foregroundColor(ui color: PlatformColor) -> some View {
         self.foregroundColor(Color(color))
     }
 }
