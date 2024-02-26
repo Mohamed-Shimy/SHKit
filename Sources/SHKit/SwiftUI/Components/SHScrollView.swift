@@ -54,7 +54,7 @@ public struct SHScrollView<Content: View>: View {
 
 internal extension SHScrollView {
     
-    struct PositionObservingView<Content: View>: View {
+    struct PositionObservingView: View {
         
         var coordinateSpace: CoordinateSpace
         @Binding var position: CGPoint
